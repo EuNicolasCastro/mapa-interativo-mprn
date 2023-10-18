@@ -6,10 +6,12 @@
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(243, 134, 134);
+    overflow-x: hidden;
+    overflow-y: hidden;
 }
 
-svg path{
+path:hover{
     cursor: pointer;
-    fill: rgb(186, 236, 236);
+    fill: rgb(209, 140, 28);
 }
