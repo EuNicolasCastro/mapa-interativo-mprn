@@ -6,7 +6,7 @@
 }
 
 body{
-    background-color: rgb(243, 134, 134);
+    background-color: rgb(255, 255, 255);
     overflow-x: hidden;
     overflow-y: hidden;
 }
@@ -16,7 +16,7 @@ path:hover{
     fill: rgb(209, 140, 28);
 }
 
-.str0 {stroke:#72706F;stroke-width:76;stroke-linecap:round;stroke-linejoin:round}
+.str0 {stroke:#000000;stroke-width:76;stroke-linecap:round;stroke-linejoin:round}
 .str5 {stroke:#C2C1C1;stroke-width:76}
 .str2 {stroke:#131516;stroke-width:76;stroke-linecap:round;stroke-linejoin:round}
 .str6 {stroke:#D82B40;stroke-width:76}
