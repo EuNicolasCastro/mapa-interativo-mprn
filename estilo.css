@@ -11,6 +11,17 @@ body{
     overflow-y: hidden;
 }
 
+#nome{
+    position: absolute;
+    background-color: white;
+    width: fit-content;
+    opacity: 0;
+    border-radius: 5px;
+    border: 3px solid #D82B40;
+    padding: 5px;
+    font-size: 1.5rem;
+}
+
 path:hover{
     cursor: pointer;
     fill: #D82B40;
