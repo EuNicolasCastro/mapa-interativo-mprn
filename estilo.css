@@ -1,30 +1,35 @@
 @charset "UTF-8";
 
+:root{
+    --corFundo:#e7e7e7;
+    --corFundoCaixaNome:white;
+    --corBordaCaixa:rgb(187, 187, 187);
+}
+
 *{
     margin: 0;
     padding: 0;
 }
 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: var(--corFundo);
     overflow-x: hidden;
     overflow-y: hidden;
 }
 
 #nome{
     position: absolute;
-    background-color: white;
+    background-color: var(--corFundoCaixaNome);
     width: fit-content;
     opacity: 0;
     border-radius: 5px;
-    border: 3px solid #D82B40;
+    border: 3px solid var(--corBordaCaixa);
     padding: 5px;
     font-size: 1.5rem;
 }
 
-path:hover{
+svg path{
     cursor: pointer;
-    fill: #D82B40;
 }
 
 .str0 {
@@ -33,9 +38,4 @@ path:hover{
     stroke-linecap:round;
     stroke-linejoin:round
 }
-.str1 {
-    stroke:#db4e08;
-    stroke-width:353;
-    stroke-linecap:round;
-    stroke-linejoin:round
-}
+
