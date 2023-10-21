@@ -1,7 +1,7 @@
 @charset "UTF-8";
 
 :root{
-    --corFundo:#e7e7e7;
+    --corFundo:white;
     --corFundoCaixaNome:white;
     --corBordaCaixa:rgb(187, 187, 187);
 }
