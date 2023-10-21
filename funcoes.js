@@ -1,9 +1,10 @@
 async function ProcurarComarca(municipio){
-    const comarca = document.getElementById("tituloComarca")
+    
+    const tituloComarca = document.getElementById("tituloComarca")
     if (municipio == 'Natal' || municipio == 'Parnamirim') {
-        comarca.innerText = `${municipio} fica na Comarca de Natal`
+        tituloComarca.innerText = `${municipio} fica na Comarca de Natal`
     } else{
-        comarca.innerText = `${municipio} marcado`
+        tituloComarca.innerText = `${municipio} marcado`
     }
 }
 
