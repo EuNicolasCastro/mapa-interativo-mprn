@@ -1,3 +1,12 @@
+async function ProcurarComarca(municipio){
+    const comarca = document.getElementById("tituloComarca")
+    if (municipio == 'Natal' || municipio == 'Parnamirim') {
+        comarca.innerText = `${municipio} fica na Comarca de Natal`
+    } else{
+        comarca.innerText = `${municipio} marcado`
+    }
+}
+
 document.querySelectorAll('.str0').forEach(e=>{
         e.addEventListener("mouseover", function(){
             const caixaNome = document.getElementById("caixaNome")
@@ -19,5 +28,8 @@ document.querySelectorAll('.str0').forEach(e=>{
             e.style.fill="#c5c5c5"
             document.getElementById("caixaNome").style.opacity=0
         })
-        
+        e.addEventListener("click",function(){
+            ProcurarComarca(e.id)
+        })
+
     })
