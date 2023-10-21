@@ -16,6 +16,11 @@ body{
     overflow-x: hidden;
     overflow-y: hidden;
 }
+.container{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+}
 
 #caixaNome{
     position: absolute;
