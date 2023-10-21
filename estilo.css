@@ -13,13 +13,12 @@
 
 body{
     background-color: var(--corFundo);
-    overflow-x: hidden;
-    overflow-y: hidden;
 }
 .container{
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
+    scroll-behavior: auto;
 }
 
 #caixaNome{
@@ -34,8 +33,12 @@ body{
 }
 
 #comarca{
-    position: absolute;
-
+    background-color: var(--corFundoCaixaNome);
+    width: 20%;
+    height:fit-content;
+    border: 3px solid var(--corBordaCaixa);
+    border-radius: 10px;
+    padding: 20px;
     opacity: 1;
 }
 
