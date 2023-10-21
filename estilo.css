@@ -14,6 +14,10 @@
 body{
     background-color: var(--corFundo);
 }
+
+.topo{
+    margin: auto;
+}
 .container{
     display: flex;
     flex-direction: column-reverse;
