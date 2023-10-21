@@ -19,10 +19,14 @@ body{
     margin: auto;
 }
 .container{
+    margin: auto;
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
     scroll-behavior: auto;
+    width: 1200px;
+    border:  2px solid rgb(173, 173, 173);
+    border-radius: 20px;
 }
 
 #caixaNome{
