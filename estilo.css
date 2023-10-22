@@ -14,10 +14,12 @@
 body{
     background-color: var(--corFundo);
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-direction: column;
 }
 
 .topo{
-    margin: auto;
+    margin:auto;
 }
 
 .container{
