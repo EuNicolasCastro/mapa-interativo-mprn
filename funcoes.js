@@ -1,6 +1,7 @@
 async function ProcurarComarca(municipio){
     
     const tituloComarca = document.getElementById("tituloComarca")
+    document.getElementById("comarca").style.opacity=1;
     if (municipio == 'Natal' || municipio == 'Parnamirim') {
         tituloComarca.innerText = `${municipio} fica na Comarca de Natal`
     } else{
