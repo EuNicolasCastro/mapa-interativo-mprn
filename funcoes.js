@@ -13,11 +13,11 @@ document.querySelectorAll('.str0').forEach(e=>{
         e.addEventListener("mouseover", function(){
             const caixaNome = document.getElementById("caixaNome")
             window.onmousemove=function(j){
-                x=j.clientX
-                y=j.clientY
+                x=j.offsetX
+                y=j.offsetY
                 //if()
-                caixaNome.style.top=e.pageY-30+"px"
-                caixaNome.style.left=e.pageX+30+"px"
+                caixaNome.style.top=y-30+"px"
+                caixaNome.style.left=x+30+"px"
                 
             }
             e.style.fill="pink"
