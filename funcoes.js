@@ -13,8 +13,8 @@ document.querySelectorAll('.str0').forEach(e=>{
         e.addEventListener("mouseover", function(){
             const caixaNome = document.getElementById("caixaNome")
             window.onmousemove=function(j){
-                x=j.screenX
-                y=j.screenY
+                x=j.pageX
+                y=j.pageY
                 //if()
                 caixaNome.style.top=y+"px"
                 caixaNome.style.left=x+"px"
