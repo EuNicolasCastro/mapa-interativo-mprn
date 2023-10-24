@@ -16,8 +16,8 @@ document.querySelectorAll('.str0').forEach(e=>{
                 x=j.offsetX
                 y=j.offsetY
                 //if()
-                caixaNome.style.top=y-30+"px"
-                caixaNome.style.left=x+30+"px"
+                caixaNome.style.top=y+"px"
+                caixaNome.style.left=x+"px"
                 
             }
             e.style.fill="pink"
