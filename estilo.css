@@ -1,4 +1,4 @@
-@charset "UTF-8";
+e@charset "UTF-8";
 
 :root{
     --corFundo:white;
@@ -46,7 +46,7 @@ body{
     letter-spacing:0.02rem;
 }
 
-#botao-opcoes{
+#selecionar-botao{
     margin-top: .75rem;
     display: flex;
     padding: 0.75rem;
