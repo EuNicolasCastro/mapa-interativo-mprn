@@ -41,6 +41,22 @@ body{
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.198);
 }
 
+#selecao-municipio label{
+    font-size: 0.75rem;
+    letter-spacing:0.02rem;
+}
+
+#botao-opcoes{
+    margin-top: .5rem;
+    display: flex;
+    padding: 0.75rem;
+    align-itens: center;
+    justify-content: space-between;
+
+    border-radius: 0.375rem;
+    border: 1px solid #252529;
+    background-color: #17171A
+}
 
 #informacoes{
     width: 350px;
