@@ -41,9 +41,13 @@ body{
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.198);
 }
 
+#selecao-municipio{
+    position: relative;
+}
+
 #selecao-municipio label{
     font-size: 0.75rem;
-    letter-spacing:0.02rem;
+    letter-spacing: 0.02rem;
 }
 
 #selecionar-botao{
@@ -59,9 +63,9 @@ body{
 }
 
 #valor-selecionado{
-    color:#AFABB6;
-    font-size:.875rem;
-    letter-spacing:0.02rem;
+    color: #AFABB6;
+    font-size: .875rem;
+    letter-spacing: 0.02rem;
 }
 
 #informacoes{
