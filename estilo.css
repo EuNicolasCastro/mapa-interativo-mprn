@@ -4,6 +4,13 @@
     --corFundo:white;
     --corFundoCaixaNome:white;
     --corBordaCaixa:rgb(187, 187, 187);
+
+    font-synthesis: none;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -noz-osx-font-smoothing: grayscale;
+    -webkit-text-size-adjust:100%;
+
 }
 
 *{
@@ -33,6 +40,7 @@ body{
     border-radius: 20px;
     box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.198);
 }
+
 
 #informacoes{
     width: 350px;
