@@ -1,9 +1,11 @@
  async function ProcurarComarca(municipio){
     
     const tituloComarca = document.getElementById("tituloComarca")
+    const informacaoComarca = document.getElementById("informacaoComarca")
     document.getElementById("comarca").style.opacity=1;
     if (municipio == 'Natal' || municipio == 'Parnamirim') {
         tituloComarca.innerText = `${municipio} fica na Comarca de Natal`
+        informacaoComarca.innerText = ``
     } 
     else if (municipio == 'Acari' || municipio == 'Carnaúba dos Dantas'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Acari`
