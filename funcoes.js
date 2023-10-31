@@ -3,6 +3,7 @@
     const tituloComarca = document.getElementById("tituloComarca")
     const informacaoComarca = document.getElementById("informacaoComarca")
     document.getElementById("comarca").style.opacity=1;
+
     if (municipio == 'Natal' || municipio == 'Parnamirim') {
         tituloComarca.innerText = `${municipio} fica na Comarca de Natal`
         informacaoComarca.innerText = ``
@@ -25,7 +26,7 @@
     else if (municipio == 'Currais Novos' || municipio == 'Cerro Corá' || municipio == 'Lagoa Nova'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CURRAIS NOVOS`
     }
-    else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Parazinho' || municipio == 'Poço Branco'){
+    else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes' || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Parazinho' || municipio == 'Poço Branco'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - JOÃO CÂMARA`
     }
     else if (municipio == 'Macau' || municipio == 'Galinhos' || municipio == 'Guamaré'){
