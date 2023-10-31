@@ -1,14 +1,14 @@
-async function ProcurarComarca(municipio){
+ async function ProcurarComarca(municipio){
     
     const tituloComarca = document.getElementById("tituloComarca")
     document.getElementById("comarca").style.opacity=1;
     if (municipio == 'Natal' || municipio == 'Parnamirim') {
         tituloComarca.innerText = `${municipio} fica na Comarca de Natal`
     } 
-    if (municipio == 'Acari' || municipio == 'Carnaúba dos Dantas'){
+    else if (municipio == 'Acari' || municipio == 'Carnaúba dos Dantas'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Acari`
     }
-    if (municipio == 'Alexandria' || municipio == 'João Dias' || municipio == 'Pilões'){
+    else if (municipio == 'Alexandria' || municipio == 'João Dias' || municipio == 'Pilões'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
     }
     else{
