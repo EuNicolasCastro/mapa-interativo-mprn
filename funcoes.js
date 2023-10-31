@@ -13,6 +13,25 @@
     else if (municipio == 'Alexandria' || municipio == 'João Dias' || municipio == 'Pilões'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
     }
+    else if (municipio == 'Assu' || municipio == 'Carnaubais' || municipio == 'Porto do Mangue'){
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA
+ASSU`
+    }
+    else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
+         tituloComarca.innerText = `${municipio} fica na Comarca de Caicó`
+    }     
+    else if (municipio == 'Ceará-Mirim' || municipio == 'Pureza'){
+         tituloComarca.innerText = `${municipio} fica na Comarca de Acari`
+    }
+    else if (municipio == 'Currais Novos' || municipio == 'Cerro Corá' || municipio == 'Lagoa Nova'){
+         tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
+    }
+    else if (municipio == 'João Câmara' || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Bento Fernandes'){
+         tituloComarca.innerText = `${municipio} fica na Comarca de Assu`
+    }
+    else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
+         tituloComarca.innerText = `${municipio} fica na Comarca de Caicó`
+    }     
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
