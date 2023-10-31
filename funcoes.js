@@ -17,19 +17,19 @@
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - ASSU`
     }
     else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Caicó`
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CAICÓ`
     }     
     else if (municipio == 'Ceará-Mirim' || municipio == 'Pureza'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Acari`
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CEARÁ-MIRIM`
     }
     else if (municipio == 'Currais Novos' || municipio == 'Cerro Corá' || municipio == 'Lagoa Nova'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CURRAIS NOVOS`
     }
     else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Parazinho' || municipio == 'Poço Branco'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Assu`
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - JOÃO CÂMARA`
     }
-    else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Caicó`
+    else if (municipio == 'Macau' || municipio == 'Galinhos' || municipio == 'Guamaré'){
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MACAU`
     }     
     else{
         tituloComarca.innerText = `${municipio} marcado`
