@@ -14,8 +14,7 @@
          tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
     }
     else if (municipio == 'Assu' || municipio == 'Carnaubais' || municipio == 'Porto do Mangue'){
-         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA
-ASSU`
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - ASSU`
     }
     else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Caicó`
