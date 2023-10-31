@@ -25,7 +25,7 @@
     else if (municipio == 'Currais Novos' || municipio == 'Cerro Corá' || municipio == 'Lagoa Nova'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
     }
-    else if (municipio == 'João Câmara' || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Bento Fernandes'){
+    else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Parazinho' || municipio == 'Poço Branco'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Assu`
     }
     else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
