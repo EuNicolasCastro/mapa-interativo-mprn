@@ -109,4 +109,6 @@ svg path{
     outline: 5px solid rgb(22, 149, 0);
 }
 
-.seletor:has(#botao-opcoes:checked) + label
+#selecao-municipio:has(#botao-opcoes:checked) label, #botao-opcoes:checked + #selecionar-botao{
+    color:green;
+}
