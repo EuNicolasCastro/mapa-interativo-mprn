@@ -112,3 +112,11 @@ svg path{
 #selecao-municipio:has(#botao-opcoes:checked) label, #botao-opcoes:checked + #selecionar-botao{
     color:green;
 }
+
+#botao-opcoes{
+    all:unset;
+    position: absolute;
+    inset: 0;
+    cursor: pointer;
+    z-index: 3;
+}
