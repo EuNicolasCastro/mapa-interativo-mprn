@@ -7,9 +7,9 @@
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
-    /* -webkit-font-smoothing: antialiased; */
+    -webkit-font-smoothing: antialiased;
     -noz-osx-font-smoothing: grayscale;
-    /* -webkit-text-size-adjust:100%; */
+    -webkit-text-size-adjust:100%;
 
 }
 
