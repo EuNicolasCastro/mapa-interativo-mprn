@@ -7,9 +7,9 @@
 
     font-synthesis: none;
     text-rendering: optimizeLegibility;
-    -webkit-font-smoothing: antialiased;
+    /* -webkit-font-smoothing: antialiased; */
     -noz-osx-font-smoothing: grayscale;
-    -webkit-text-size-adjust:100%;
+    /* -webkit-text-size-adjust:100%; */
 
 }
 
@@ -58,7 +58,7 @@ body{
     justify-content: space-between;
 
     border-radius: 0.375rem;
-    border: 1px solid #252529;
+    border: 1px solid #ff0000;
     background-color: #ff0000;
 }
 
@@ -105,3 +105,6 @@ svg path{
     stroke-linejoin:round
 }
 
+#botao-opcoes:focus + #selecionar-botao{
+    outline: 5px solid rgb(22, 149, 0);
+}
