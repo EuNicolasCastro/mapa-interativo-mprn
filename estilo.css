@@ -108,3 +108,5 @@ svg path{
 #botao-opcoes:focus + #selecionar-botao{
     outline: 5px solid rgb(22, 149, 0);
 }
+
+.seletor:has(#botao-opcoes:checked) + label
