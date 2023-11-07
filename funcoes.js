@@ -36,13 +36,13 @@
     else if (municipio == 'Mossoró' || municipio == 'Serra do Mel'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MOSSORÓ`
     }     
-    else if (municipio == 'Nova Cruz' || municipio == 'Lagoa d'Anta'){
+    else if (municipio == 'Nova Cruz' || municipio == 'Lagoa d'Anta' || municipio == 'Montanhas' || municipio == 'Passa e Fica'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - NOVA CRUZ`
     }
-    else if (municipio == 'Currais Novos' || municipio == 'Cerro Corá' || municipio == 'Lagoa Nova'){
-         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CURRAIS NOVOS`
+    else if (municipio == 'Pau dos Ferros' || municipio == 'Água Nova' || municipio == 'Encanto' || municipio == 'Francisco Dantas' || municipio == 'Poço Branco'){
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - PAU DOS FERROS`
     }
-    else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes' || municipio == 'Jandaíra' || municipio == 'Jardim de Angicos' || municipio == 'Parazinho' || municipio == 'Poço Branco'){
+    else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes' ){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - JOÃO CÂMARA`
     }
     else if (municipio == 'Macau' || municipio == 'Galinhos' || municipio == 'Guamaré'){
