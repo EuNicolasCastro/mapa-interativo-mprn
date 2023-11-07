@@ -3,7 +3,9 @@
     const tituloComarca = document.getElementById("tituloComarca")
     const informacaoComarca = document.getElementById("informacaoComarca")
     document.getElementById("comarca").style.opacity=1;
-
+  
+    /*  TERCEIRA ENTRANCIA */
+  
     if (municipio == 'Natal') {
         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - NATAL`
         informacaoComarca.innerText = `Estas serão informações sobre a comarca de Natal.
@@ -42,6 +44,9 @@
     else if (municipio == 'Pau dos Ferros' || municipio == 'Água Nova' || municipio == 'Encanto' || municipio == 'Francisco Dantas' || municipio == 'Rafael Fernandes' || municipio == 'Riacho de Santana' || municipio == 'São Francisco do Oeste'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - PAU DOS FERROS`
     }
+     
+    /*  SEGUNDA ENTRANCIA */
+     
     else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes' ){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - JOÃO CÂMARA`
     }
