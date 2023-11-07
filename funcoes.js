@@ -47,12 +47,13 @@
     else if (municipio == 'Alexandria' || municipio == 'João Dias' || municipio == 'Pilões'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALEXANDRIA`
     }
-    else if (municipio == 'Angicos' || municipio == 'Fernando Pessoa'){
+    else if (municipio == 'Angicos' || municipio == 'Fernando Pedroza'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ACARI`
     }
     else if (municipio == 'Apodi' || municipio == 'João Dias' || municipio == 'Pilões'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALEXANDRIA`
     }      
+
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
