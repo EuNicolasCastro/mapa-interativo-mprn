@@ -36,7 +36,7 @@
     else if (municipio == 'Mossoró' || municipio == 'Serra do Mel'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MOSSORÓ`
     }     
-    else if (municipio == 'Nova Cruz' || municipio == 'Lagoa d'Anta' || municipio == 'Montanhas' || municipio == 'Passa e Fica'){
+    else if (municipio == 'Nova Cruz' || municipio == `Lagoa d'Anta` || municipio == 'Montanhas' || municipio == 'Passa e Fica'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - NOVA CRUZ`
     }
     else if (municipio == 'Pau dos Ferros' || municipio == 'Água Nova' || municipio == 'Encanto' || municipio == 'Francisco Dantas' || municipio == 'Rafael Fernandes' || municipio == 'Riacho de Santana' || municipio == 'São Francisco do Oeste'){
