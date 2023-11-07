@@ -11,12 +11,6 @@
         informacaoComarca.innerText = `Estas serão informações sobre a comarca de Natal.
          Veja este texto.`
     }
-    else if (municipio == 'Acari' || municipio == 'Carnaúba dos Dantas'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Acari`
-    }
-    else if (municipio == 'Alexandria' || municipio == 'João Dias' || municipio == 'Pilões'){
-         tituloComarca.innerText = `${municipio} fica na Comarca de Alexandria`
-    }
     else if (municipio == 'Assu' || municipio == 'Carnaubais' || municipio == 'Porto do Mangue'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - ASSU`
     }
@@ -47,12 +41,18 @@
      
     /*  SEGUNDA ENTRANCIA */
      
-    else if (municipio == 'João Câmara' || municipio == 'Bento Fernandes' ){
-         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - JOÃO CÂMARA`
+    else if (municipio == 'Acari' || municipio == 'Carnaúba dos Dantas'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ACARI`
     }
-    else if (municipio == 'Macau' || municipio == 'Galinhos' || municipio == 'Guamaré'){
-         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MACAU`
-    }   
+    else if (municipio == 'Alexandria' || municipio == 'João Dias' || municipio == 'Pilões'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALEXANDRIA`
+    }
+    else if (municipio == 'Angicos' || municipio == 'Fernando Pessoa'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ACARI`
+    }
+    else if (municipio == 'Apodi' || municipio == 'João Dias' || municipio == 'Pilões'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALEXANDRIA`
+    }      
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
