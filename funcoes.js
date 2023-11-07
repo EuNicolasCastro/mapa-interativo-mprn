@@ -5,8 +5,9 @@
     document.getElementById("comarca").style.opacity=1;
 
     if (municipio == 'Natal') {
-        tituloComarca.innerText = `${municipio} fica na Comarca de Natal`
-        informacaoComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - NATAL`
+        tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - NATAL`
+        informacaoComarca.innerText = `Estas serão informações sobre a comarca de Natal.
+         Veja este texto.`
     } 
     else if (municipio == 'Acari' || municipio == 'Carnaúba dos Dantas'){
          tituloComarca.innerText = `${municipio} fica na Comarca de Acari`
