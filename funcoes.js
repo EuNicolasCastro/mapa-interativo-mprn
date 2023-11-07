@@ -48,12 +48,14 @@
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALEXANDRIA`
     }
     else if (municipio == 'Angicos' || municipio == 'Fernando Pedroza'){
-         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ACARI`
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ANGICOS`
     }
-    else if (municipio == 'Apodi' || municipio == 'João Dias' || municipio == 'Pilões'){
-         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALEXANDRIA`
+    else if (municipio == 'Apodi' || municipio == 'Felipe Guerra' || municipio == 'Itaú' || municipio == 'Rodolfo Fernandes' || municipio == 'Severiano Melo'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - APODI`
     }      
-
+    else if (municipio == 'Areia Branca' || municipio == 'Grossos' || municipio == 'Tibau'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - AREIA BRANCA`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
