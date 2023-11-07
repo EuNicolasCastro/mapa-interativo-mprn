@@ -36,8 +36,8 @@
     else if (municipio == 'Mossoró' || municipio == 'Serra do Mel'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MOSSORÓ`
     }     
-    else if (municipio == 'Ceará-Mirim' || municipio == 'Pureza'){
-         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CEARÁ-MIRIM`
+    else if (municipio == 'Nova Cruz' || municipio == 'Lagoa d'Anta'){
+         tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - NOVA CRUZ`
     }
     else if (municipio == 'Currais Novos' || municipio == 'Cerro Corá' || municipio == 'Lagoa Nova'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CURRAIS NOVOS`
