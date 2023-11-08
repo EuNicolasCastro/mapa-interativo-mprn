@@ -59,6 +59,9 @@
     else if (municipio == 'Canguaretama' || municipio == 'Baía Formosa' || municipio == 'Vila Flor'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CANGUARETAMA`
     }
+    else if (municipio == 'Caraúbas'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CARAÚBAS`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
