@@ -68,6 +68,9 @@
     else if (municipio == 'Jardim do Seridó' || municipio == 'Ouro branco'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DO SERIDÓ`
     }
+    else if (municipio == 'Jucurutu'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JUCURUTU`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
