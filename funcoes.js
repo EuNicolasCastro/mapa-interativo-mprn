@@ -74,6 +74,9 @@
     else if (municipio == 'Lajes' || municipio == 'Caiçara do Rio do Vento' || municipio == 'Pedra Preta'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - LAJES`
     }
+    else if (municipio == 'Luís Gomes' || municipio == 'José da Penha' || municipio == 'Major Sales' || municipio == 'Paraná'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - LUÍS GOMES`
+    } 
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
