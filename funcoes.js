@@ -62,6 +62,9 @@
     else if (municipio == 'Caraúbas'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CARAÚBAS`
     }
+    else if (municipio == 'Goianinha' || municipio == 'Espírito Santo' || municipio == 'Tibau do Sul'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - GOIANINHA`
+    } 
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
