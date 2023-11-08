@@ -83,6 +83,9 @@
     else if (municipio == 'Martins' || municipio == 'Antônio Martins' || municipio == 'Serrinha dos Pintos'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - MARTINS`
     }
+    else if (municipio == 'Parelhas' || municipio == 'Equador' || municipio == 'Santana do Seridó'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PARELHAS`
+    }     
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
