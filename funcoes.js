@@ -76,7 +76,10 @@
     }
     else if (municipio == 'Luís Gomes' || municipio == 'José da Penha' || municipio == 'Major Sales' || municipio == 'Paraná'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - LUÍS GOMES`
-    } 
+    }
+    else if (municipio == 'Macaíba' || municipio == 'Bom Jesus || municipio == 'Ielmo Marinho'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - MACAÍBA`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
