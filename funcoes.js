@@ -64,7 +64,10 @@
     }
     else if (municipio == 'Goianinha' || municipio == 'Espírito Santo' || municipio == 'Tibau do Sul'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - GOIANINHA`
-    } 
+    }
+    else if (municipio == 'Jardim do Seridó' || municipio == 'Ouro branco'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DO SERIDÓ`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
