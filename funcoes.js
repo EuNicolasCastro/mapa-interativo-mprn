@@ -71,6 +71,9 @@
     else if (municipio == 'Jucurutu'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JUCURUTU`
     }
+    else if (municipio == 'Lajes' || municipio == 'Caiçara do Rio do Vento' || municipio == 'Pedra Preta'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - LAJES`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
