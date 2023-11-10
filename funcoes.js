@@ -113,6 +113,9 @@
     else if (municipio == 'São Paulo do Potengi' || municipio == 'Riachuelo' || municipio == 'Santa Maria' || municipio == 'São Pedro'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO MIGUEL`
     }
+    else if (municipio == 'Tangará' || municipio == 'Boa Saúde' || municipio == 'Senador Elói de Souza' || municipio == 'Serra Caiada' || municipio == 'Sítio Novo'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO MIGUEL`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
