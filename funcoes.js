@@ -92,6 +92,9 @@
     else if (municipio == 'Patu' || municipio == 'Messias Targino'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PATU`
     }
+    else if (municipio == 'Santa Cruz' || municipio == 'Campo Redondo' || municipio == 'Coronel Ezequiel' || municipio == 'Jaçanã' || municipio == 'Japi' || municipio == 'Lajes Pintadas' || municipio == 'São Bento do Trairí'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTA CRUZ`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
