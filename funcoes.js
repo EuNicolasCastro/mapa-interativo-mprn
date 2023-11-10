@@ -101,6 +101,9 @@
     else if (municipio == 'Santo Antônio' || municipio == 'Lagoa de Pedras' || municipio == 'Jundiá' || municipio == 'Passagem' || municipio == 'Serrinha' || municipio == 'Várzea'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTO ANTÔNIO`
     }
+    else if (municipio == 'São Gonçalo do Amarante'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO GONÇALO DO AMARANTE`
+    }
      
     else{
         tituloComarca.innerText = `${municipio} marcado`
