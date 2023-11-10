@@ -89,6 +89,9 @@
     else if (municipio == 'Parnamirim'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PARNAMIRIM`
     }
+    else if (municipio == 'Patu' || municipio == 'Messias Targino'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PATU`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
