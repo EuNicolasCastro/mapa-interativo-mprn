@@ -95,6 +95,10 @@
     else if (municipio == 'Santa Cruz' || municipio == 'Campo Redondo' || municipio == 'Coronel Ezequiel' || municipio == 'Jaçanã' || municipio == 'Japi' || municipio == 'Lajes Pintadas' || municipio == 'São Bento do Trairí'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTA CRUZ`
     }
+    else if (municipio == 'Santana do Matos' || municipio == 'Bodó'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTANA DO MATOS`
+    }
+
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
