@@ -85,7 +85,10 @@
     }
     else if (municipio == 'Parelhas' || municipio == 'Equador' || municipio == 'Santana do Seridó'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PARELHAS`
-    }     
+    }   
+    else if (municipio == 'Parnamirim'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PARNAMIRIM`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
