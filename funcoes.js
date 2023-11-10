@@ -104,7 +104,12 @@
     else if (municipio == 'São Gonçalo do Amarante'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO GONÇALO DO AMARANTE`
     }
-     
+    else if (municipio == 'São José de Mipibu'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO JOSÉ DE MIPIBU`
+    }     
+    else if (municipio == 'São Miguel' || municipio == 'Coronel João Pessoa' || municipio == 'Doutor Severiano' || municipio == 'Venha-Ver'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO MIGUEL`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
