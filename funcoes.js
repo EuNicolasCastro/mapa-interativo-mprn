@@ -98,7 +98,10 @@
     else if (municipio == 'Santana do Matos' || municipio == 'Bodó'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTANA DO MATOS`
     }
-
+    else if (municipio == 'Santo Antônio' || municipio == 'Lagoa de Pedras' || municipio == 'Jundiá' || municipio == 'Passagem' || municipio == 'Serrinha' || municipio == 'Várzea'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTO ANTÔNIO`
+    }
+     
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
