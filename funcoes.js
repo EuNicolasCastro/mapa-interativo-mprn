@@ -128,6 +128,12 @@
     else if (municipio == 'Arez'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - AREZ`
     }
+    else if (municipio == 'Baraúna'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - BARAÚNA`
+    }
+    else if (municipio == 'Campo Grande' || municipio == 'Paraú' || municipio == 'Triunfo'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CAMPO GRANDE`
+    }        
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
