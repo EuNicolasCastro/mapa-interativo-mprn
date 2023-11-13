@@ -131,9 +131,12 @@
     else if (municipio == 'Baraúna'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - BARAÚNA`
     }
-    else if (municipio == 'Campo Grande' || municipio == 'Paraú' || municipio == 'Triunfo'){
+    else if (municipio == 'Campo Grande' || municipio == 'Paraú' || municipio == 'Triunfo Potiguar'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CAMPO GRANDE`
-    }        
+    } 
+    else if (municipio == 'Cruzeta' || municipio == 'São José do Seridó'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTANA DO MATOS`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
