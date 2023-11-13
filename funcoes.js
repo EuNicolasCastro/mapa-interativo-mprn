@@ -116,6 +116,9 @@
     else if (municipio == 'Tangará' || municipio == 'Boa Saúde' || municipio == 'Senador Elói de Souza' || municipio == 'Serra Caiada' || municipio == 'Sítio Novo'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - TANGARÁ`
     }
+
+    /* PRIMEIRA ENTRANCIA */
+     
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
