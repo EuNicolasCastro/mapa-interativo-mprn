@@ -135,7 +135,10 @@
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CAMPO GRANDE`
     } 
     else if (municipio == 'Cruzeta' || municipio == 'São José do Seridó'){
-          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SANTANA DO MATOS`
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CRUZETA`
+    }
+    else if (municipio == 'Extremoz' || municipio == 'Mazaranguape'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - EXTREMOZ`
     }
     else{
         tituloComarca.innerText = `${municipio} marcado`
