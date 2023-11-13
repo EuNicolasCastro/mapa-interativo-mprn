@@ -137,9 +137,12 @@
     else if (municipio == 'Cruzeta' || municipio == 'São José do Seridó'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CRUZETA`
     }
-    else if (municipio == 'Extremoz' || municipio == 'Mazaranguape'){
+    else if (municipio == 'Extremoz' || municipio == 'Maxaranguape'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - EXTREMOZ`
     }
+    else if (municipio == 'Florânia' || municipio == 'São Vicente' || municipio == 'Tenente Laurentino Cruz'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - FLORÂNIA`
+    } 
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
