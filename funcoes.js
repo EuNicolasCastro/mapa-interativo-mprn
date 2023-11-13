@@ -119,6 +119,12 @@
 
     /* PRIMEIRA ENTRANCIA */
      
+    else if (municipio == 'Afonso Bezerra'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - AFONSO BEZERRA`
+    }  
+    else if (municipio == 'Almino Afonso'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALMINO AFONSO`
+    }       
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
