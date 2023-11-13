@@ -124,7 +124,10 @@
     }  
     else if (municipio == 'Almino Afonso'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - ALMINO AFONSO`
-    }       
+    }  
+    else if (municipio == 'Arez'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - AREZ`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
