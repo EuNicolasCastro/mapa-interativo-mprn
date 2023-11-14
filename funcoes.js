@@ -152,6 +152,9 @@
     else if (municipio == 'Marcelino Vieira' || municipio == 'Tenente Ananias'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - MARCELINO VIEIRA`
     }
+    else if (municipio == 'Monte Alegre' || municipio == 'Brejinho' || municipio == 'Lagoa Salgada' || municipio == 'Vera Cruz'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CAMPO GRANDE`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
