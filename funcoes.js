@@ -158,6 +158,9 @@
     else if (municipio == 'Nísia Floresta'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - NÍSIA FLORESTA`
     }
+    else if (municipio == 'Pendências' || municipio == 'Alto do Rodrigues'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PENDÊNCIAS`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
