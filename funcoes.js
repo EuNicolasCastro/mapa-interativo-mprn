@@ -155,8 +155,8 @@
     else if (municipio == 'Monte Alegre' || municipio == 'Brejinho' || municipio == 'Lagoa Salgada' || municipio == 'Vera Cruz'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - MONTE ALEGRE`
     }
-    else if (municipio == 'jarim de Piranhas'){
-         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DE PIRANHAS`
+    else if (municipio == 'Nísia Floresta'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - NÍSIA FLORESTA`
     }
     else{
         tituloComarca.innerText = `${municipio} marcado`
