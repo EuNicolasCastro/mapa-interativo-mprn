@@ -56,7 +56,7 @@
     else if (municipio == 'Areia Branca' || municipio == 'Grossos' || municipio == 'Tibau'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - AREIA BRANCA`
     }
-    else if (municipio == 'Canguaretama' || municipio == 'Baía Formosa' || municipio == 'Vila Flor'){
+    else if (municipio == 'Canguaretama' || municipio == 'Baía Formosa' || municipio == 'Pedro Velho' || municipio == 'Vila Flor'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CANGUARETAMA`
     }
     else if (municipio == 'Caraúbas'){
