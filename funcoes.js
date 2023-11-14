@@ -146,6 +146,9 @@
     else if (municipio == 'Ipanguaçu' || municipio == 'Itajá'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - IPANGUAÇU`
     }
+    else if (municipio == 'jarim de Piranhas'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DE PIRANHAS`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
