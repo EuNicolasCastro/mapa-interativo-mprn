@@ -29,7 +29,7 @@
     else if (municipio == 'Macau' || municipio == 'Galinhos' || municipio == 'Guamaré'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MACAU`
     }     
-    else if (municipio == 'Mossoró' || municipio == 'Serra do Mel'){
+    else if (municipio == 'Mossoró' || municipio == 'Serra do Mel' || municipio == 'Governador Dix-sept Rosado'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - MOSSORÓ`
     }     
     else if (municipio == 'Nova Cruz' || municipio == `Lagoa d'Anta` || municipio == 'Montanhas' || municipio == 'Passa e Fica'){
