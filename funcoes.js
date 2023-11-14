@@ -149,6 +149,9 @@
     else if (municipio == 'jarim de Piranhas'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DE PIRANHAS`
     }
+    else if (municipio == 'Marcelino Vieira' || municipio == 'Tenente Ananias'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - MARCELINO VIEIRA`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
