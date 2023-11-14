@@ -71,7 +71,7 @@
     else if (municipio == 'Jucurutu'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JUCURUTU`
     }
-    else if (municipio == 'Lajes' || municipio == 'Caiçara do Rio do Vento' || municipio == 'Pedra Preta'){
+    else if (municipio == 'Lajes' || municipio == 'Caiçara do Rio do Vento' || municipio == 'Pedra Preta' || municipio == 'Pedro Avelino'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - LAJES`
     }
     else if (municipio == 'Luís Gomes' || municipio == 'José da Penha' || municipio == 'Major Sales' || municipio == 'Paraná'){
