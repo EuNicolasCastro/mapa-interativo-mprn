@@ -146,7 +146,7 @@
     else if (municipio == 'Ipanguaçu' || municipio == 'Itajá'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - IPANGUAÇU`
     }
-    else if (municipio == 'jarim de Piranhas'){
+    else if (municipio == 'Jardim de Piranhas'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DE PIRANHAS`
     }
     else if (municipio == 'Marcelino Vieira' || municipio == 'Tenente Ananias'){
@@ -154,6 +154,9 @@
     }
     else if (municipio == 'Monte Alegre' || municipio == 'Brejinho' || municipio == 'Lagoa Salgada' || municipio == 'Vera Cruz'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - MONTE ALEGRE`
+    }
+    else if (municipio == 'jarim de Piranhas'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - JARDIM DE PIRANHAS`
     }
     else{
         tituloComarca.innerText = `${municipio} marcado`
