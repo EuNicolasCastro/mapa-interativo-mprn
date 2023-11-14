@@ -131,7 +131,7 @@
     else if (municipio == 'Baraúna'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - BARAÚNA`
     }
-    else if (municipio == 'Campo Grande' || municipio == 'Paraú' || municipio == 'Triunfo Potiguar'){
+    else if (municipio == 'Campo Grande' || municipio == 'Paraú' || municipio == 'Triunfo Potiguar' || municipio == 'Janduís'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - CAMPO GRANDE`
     } 
     else if (municipio == 'Cruzeta' || municipio == 'São José do Seridó'){
@@ -143,6 +143,9 @@
     else if (municipio == 'Florânia' || municipio == 'São Vicente' || municipio == 'Tenente Laurentino Cruz'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - FLORÂNIA`
     } 
+    else if (municipio == 'Ipanguaçu' || municipio == 'Itajá'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - IPANGUAÇU`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
