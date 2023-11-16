@@ -11,7 +11,7 @@
         informacaoComarca.innerText = `Estas serão informações sobre a comarca de Natal.
          Veja este texto.`
     }
-    else if (municipio == 'Assú' || municipio == 'Carnaubais' || municipio == 'Porto do Mangue'){
+    else if (municipio == 'Assú' || municipio == 'Carnaubais' || municipio == 'Porto do Mangue' || municipio == 'São Rafael'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - ASSU`
     }
     else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'São João do Sabugi' || municipio == 'Timbaúba dos Batistas'){
