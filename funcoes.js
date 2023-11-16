@@ -14,7 +14,7 @@
     else if (municipio == 'Assú' || municipio == 'Carnaubais' || municipio == 'Porto do Mangue'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - ASSU`
     }
-    else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'Timbaúba dos Batistas'){
+    else if (municipio == 'Caicó' || municipio == 'São Fernando' || municipio == 'São João do Sabugi' || municipio == 'Timbaúba dos Batistas'){
          tituloComarca.innerText = `1ª PROMOTORIA DE JUSTIÇA - CAICÓ`
     }     
     else if (municipio == 'Ceará-Mirim' || municipio == 'Pureza'){
