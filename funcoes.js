@@ -165,7 +165,7 @@
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PORTALEGRE`
     }     
     else if (municipio == 'São Bento do Norte' || municipio == 'Caiçara do Norte' || municipio == 'Pedra Grande'){
-         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - FLORÂNIA`
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO BENTO DO NORTE`
     } 
     else{
         tituloComarca.innerText = `${municipio} marcado`
