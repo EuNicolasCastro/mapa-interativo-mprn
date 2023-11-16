@@ -167,6 +167,9 @@
     else if (municipio == 'São Bento do Norte' || municipio == 'Caiçara do Norte' || municipio == 'Pedra Grande'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO BENTO DO NORTE`
     } 
+    else if (municipio == 'São José do Campestre' || municipio == 'Monte das Gameleiras' || municipio == 'Serra de São Bento'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO JOSÉ DO CAMPESTRE`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
