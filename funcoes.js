@@ -161,7 +161,7 @@
     else if (municipio == 'Pendências' || municipio == 'Alto do Rodrigues'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PENDÊNCIAS`
     }
-    else if (municipio == 'Portalegre' || municipio == 'Riacho da Cruz' || municipio == 'Tabuleiro Grande' || municipio == 'Viçosa'){
+    else if (municipio == 'Portalegre' || municipio == 'Riacho da Cruz' || municipio == 'Taboleiro Grande' || municipio == 'Viçosa'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PORTALEGRE`
     }     
     else{
