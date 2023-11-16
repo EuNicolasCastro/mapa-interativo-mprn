@@ -164,6 +164,9 @@
     else if (municipio == 'Portalegre' || municipio == 'Riacho da Cruz' || municipio == 'Taboleiro Grande' || municipio == 'Viçosa'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PORTALEGRE`
     }     
+    else if (municipio == 'São Bento do Norte' || municipio == 'Caiçara do Norte' || municipio == 'Pedra Grande'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - FLORÂNIA`
+    } 
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
