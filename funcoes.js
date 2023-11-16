@@ -170,6 +170,9 @@
     else if (municipio == 'São José do Campestre' || municipio == 'Monte das Gameleiras' || municipio == 'Serra de São Bento'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO JOSÉ DO CAMPESTRE`
     }
+    else if (municipio == 'São Tomé' || municipio == 'Barcelona' || municipio == 'Lagoa de Velhos' || municipio == 'Ruy Barbosa'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO TOMÉ`
+    }    
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
