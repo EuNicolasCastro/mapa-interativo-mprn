@@ -175,7 +175,13 @@
     }
     else if (municipio == 'Touros' || municipio == 'Rio do Fogo' || municipio == 'São Miguel do Gostoso'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - TOUROS`
-    } 
+    }
+    else if (municipio == 'Umarizal' || municipio == 'Olho d`Água do Borges'){
+          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - UMARIZAL`
+    }
+    else if (municipio == 'Upanema'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - UPANEMA`
+    }
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
