@@ -172,7 +172,10 @@
     }
     else if (municipio == 'São Tomé' || municipio == 'Barcelona' || municipio == 'Lagoa de Velhos' || municipio == 'Ruy Barbosa'){
          tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - SÃO TOMÉ`
-    }    
+    }
+    else if (municipio == 'Touros' || municipio == 'Rio do Fogo' || municipio == 'São Miguel do Gostoso'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - TOUROS`
+    } 
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
