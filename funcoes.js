@@ -161,6 +161,9 @@
     else if (municipio == 'Pendências' || municipio == 'Alto do Rodrigues'){
           tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PENDÊNCIAS`
     }
+    else if (municipio == 'Portalegre' || municipio == 'Riacho da Cruz' || municipio == 'Tabuleiro Grande' || municipio == 'Viçosa'){
+         tituloComarca.innerText = `PROMOTORIA DE JUSTIÇA - PORTALEGRE`
+    }     
     else{
         tituloComarca.innerText = `${municipio} marcado`
     }
